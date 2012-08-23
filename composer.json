@@ -1,0 +1,22 @@
+{
+	"name": "thesmart/php-topsy",
+	"type": "library",
+	"description": "A php rest client for Topsy's Otter API with support for rate limiting and error handling",
+	"keywords": ["topsy","otter"],
+	"homepage": "https://github.com/thesmart/php-topsy",
+	"license": "MIT",
+	"authors": [
+		{
+		"name": "Telly",
+		"homepage": "http://telly.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*",
+        "ext-json": "*"
+	},
+	"autoload": {
+		"classmap": ["lib"]
+	}
+}
