@@ -20,7 +20,7 @@ try {
 }
 ```
 
-Prints this:
+The contents of `$result` is this:
 
 ```php
 array (
